@@ -1,0 +1,67 @@
+First You Need to Install Python pACKAGE mANAGER
+
+  PIP 
+  
+   1.pip is a de facto standard package-management system used to install and manage software packages written in Python. Many packages can be found in the default source for packages and their dependencies — Python Package Index (PyPI). ... pip is a recursive acronym for "Pip Installs Packages
+   
+2. Different Python Distribution
+
+   ANACONDA & VirtuaENV
+     
+      They are help full for creating diffrent environment for different works which may include different versions of libraries 
+      which may overlapp is environment sagrigation not available.
+
+   ---->Anaconda (Python distribution) Anaconda is a free and open-source distribution of the Python and R programming languages for scientific computing (data science, machine learning applications, large-scale data processing, predictive analytics, etc.), that aims to simplify package management and deployment.
+        
+    ---------------
+    
+3.    ### About PIP ###
+
+  -- PIP is like YUM does for Rehat RPM its resolves all dependacy by its own for installing a package
+  
+  Step for installing in Windows 
+  a. First check if PIP already installed
+     >pip --version
+   
+  b.First install python in system check online for installing python
+  
+  c.Then Installaing pip in windows
+    Download get-pip.py to a folder on your computer.
+    Open a command prompt and navigate to the folder containing get-pip.py.
+    Run the following command: python get-pip.py.
+    Pip is now installed!
+  
+  d. Installing Pacakage
+      >pip install package_name
+  e. Checking packages
+  
+     > pip list    */lists all package
+     > pip show sphinx    */ view specific package
+     
+     
+     
+4.  ### Anaconda ###
+      Anaconda® is a package manager, an environment manager, a Python/R data science distribution, and a collection of over 7,500+ open-source packages. 
+      1.Visit anaconda site and install anaconda by selecting python version 
+      2.After you install Anaconda or Miniconda, if you prefer a desktop graphical user interface (GUI) then use Navigator. If you prefer to use Anaconda prompt (or terminal on Linux or macOS), then use that and conda. You can also switch between them.
+      3.conda install command : used for installing packages from conda repository
+      
+   ### Jupyter Notebook ###
+     The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text
+     
+     1. Installation
+     JupyterLab can be installed using conda or pip. For more detailed instructions, consult the installation guide.
+
+        conda
+            If you use conda, you can install it with:
+
+              >conda install -c conda-forge jupyterlab
+        pip
+           If you use pip, you can install it with:
+
+              >pip install jupyterlab
+  
+    
+        2. running jupyter 
+          > jupyter notebook
+          
