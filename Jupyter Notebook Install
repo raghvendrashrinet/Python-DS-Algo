@@ -46,7 +46,8 @@ First You Need to Install Python pACKAGE mANAGER
       2.After you install Anaconda or Miniconda, if you prefer a desktop graphical user interface (GUI) then use Navigator. If you prefer to use Anaconda prompt (or terminal on Linux or macOS), then use that and conda. You can also switch between them.
       3.conda install command : used for installing packages from conda repository
       
-      Note : installing Anaconda install python ,jupyter and other packages by default
+      Note : installing Anaconda install python 
+      > conda install jupyter
       
    ### Jupyter Notebook ###
      The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text
